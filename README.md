@@ -4,6 +4,8 @@ Turn your Pandoc documents into self-rendering HTML documents!
 
  1. Add a shebang to the top of your Pandoc documents pointing to `pandoc-cgi`
 
+        #!/usr/local/bin/pandoc-cgi
+
  2. Mark your documents executable with `chmod +x`
 
  3. Register your documents as CGI scripts in your web browser, for example, using
